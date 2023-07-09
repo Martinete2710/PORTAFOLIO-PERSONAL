@@ -1,0 +1,123 @@
+/*todo esto corresponde a los estilos del Navbar*/
+#navbarNav,
+.containerNav {
+  justify-content: center;
+  align-items: center;
+  text-align: end;
+  background-color: #025464;
+  padding: 0;
+
+}
+.title {
+  margin-left: 1rem;
+  color: rgb(235, 243, 235);
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  margin-right: 5rem;
+
+}
+
+.title:hover {
+  color: #E8AA42;
+}
+
+#iconoCarrito{
+  width: 2rem;
+  height: 2rem;
+}
+.navbar {
+  padding: 0;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: medium;
+  color: #EFE9E7;
+
+}
+
+.nav-link:hover {
+  color:#E8AA42}
+
+/*hasta aqui terminan los estilos del navbar*/
+#imgCarrusel{
+  height: 40rem;
+
+}
+.martinipn{
+  height: 60%;
+
+.cardipn{
+margin: 0;
+  }
+}
+.card-body{
+background-color: #025464;
+height: 26.75rem;
+margin: 0;
+}
+/*color de la letra martin*/
+.nombre span {
+  color: #E8AA42;
+}
+
+/*estilos de boton*/
+.botoncv {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: aqua;
+  border: none;
+  margin: top 10px;
+  border-radius: 20px;
+  box-shadow: 1px 3px 11px -5px blueviolet
+}
+
+.botoncv:hover {
+  background-color: beige;
+  box-shadow: none;
+  transition: ease-in 0.5s;
+}
+.infoMartin{
+  text-align:center;
+  padding: 0;
+  margin-top: 3rem;
+color: #EFE9E7;
+background-color: #025464;
+}
+.infoMartinrow{
+background-color: #025464;
+}
+#imgmartinipn{
+  border: 0;
+padding: 0;
+border-radius: 0;
+  background-color: #025464;
+height: 26.75rem;
+}
+.divmartinipn{
+  background-color: #025464;
+  padding: 0;
+}
+.infoMartin1{
+  text-align:center;
+  padding: 0;
+  
+color: #EFE9E7;
+background-color:#E57C23;
+}
+.segundaTarjeta{
+  background-color: #E57C23;
+}
+#imgmartinProgramador{
+
+}
+#imgmartinIng{
+  width: 25rem;
+  height: 28rem;
+  border: 0;
+  margin: 0;
+  margin-top: 0;
+}
+*{
+  background-color: #025464;
+}
