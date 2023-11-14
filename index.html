@@ -16,8 +16,8 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid containerNav">
       <img class="rounded-circle" src="./assets/imagenes/martin-chido.png" width="60rem" alt="Plantas Reyes" />
-      <a class="title" href="linpagina inicial">
-        <h4>Java Full Stack Developer</h4>
+      <a class="title" href="./index.html">
+        <h3>Java Full Stack Developer</h3>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,10 +28,10 @@
         <ul class="navbar-nav">
 
           <li class="nav-item">
-            <a class="nav-link" href="./index.html">Sobre mi</a>
+            <a class="nav-link" href="#ingenieroMartin">Sobre mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./">Portafolio de Proyectos</a>
+            <a class="nav-link" href="#proyectosPersonales">Portafolio de Proyectos</a>
           </li>
 
 
@@ -40,10 +40,10 @@
               Informacion de Contacto
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="./link ingresa a tu cuenta">Ingresa a tu cuenta</a></li>
+              <li><a class="dropdown-item" href="./assets/Documents/CurriculumMartinReyes.pdf" download="CurriculumMartinReyes.pdf">Descarga mi Curriculum</a></li>
 
               <li>
-                <a class="dropdown-item" href="./link registrate">Registrate</a>
+                <a class="dropdown-item" href="https://www.linkedin.com/in/martinreyesespino/">Visita mi Linkedin</a>
               </li>
 
             </ul>
@@ -62,24 +62,37 @@
   <!--fin del navbar-->
 
 
-<div>
 
-  <div class="card mb-3   border-0" style="max-width: 100vw;">
-    <div class="row g-0 border-0">
-      <div class="col-md-4  border-0">
-        <!-- <img src="../assets/imagenes/MartinGeofisica.jpg" class="img-fluid rounded-start" alt="..."> -->
-        <img src="./assets/imagenes/martin.png" class="img-thumbnail border-0" id="imgmartinipn" alt="...">
-      </div>
-      <div class="col-md-8 border-0">
-        <div class="card-body  border-0 ">
-          <div class="infoMartin">
-            <div class="nombre border-0">
-              <h1>Yo Soy<span> Martin</span> Reyes</h1>
+  <div class="container-fluid m-0">
+    <div class="card mb-3  border-0 m-0 segundaTarjeta" id="cardMargen" style="max-width: 100vw; margin: 0;">
+      <div class="row g-0 border-0">
+        <div class="col-md-4  border-0">
+          <!-- <img src="../assets/imagenes/MartinGeofisica.jpg" class="img-fluid rounded-start" alt="..."> -->
+          <img src="./assets/imagenes/martin.png" class="img-thumbnail border-0" id="imgmartinipn" alt="...">
+        </div>
+        <div class="col-md-8 border-0">
+          <div class="card-body  border-0 ">
+            <div class="infoMartin">
+              <div class="nombre border-0">
+                <h1>Desarrollador<span> Martin</span> Reyes</h1>
+              </div>
+              <br>
+              <p class="texto">Hola gracias por visitar mi portafolio
+                <br><br>
+                Buenos días/tardes/noches a todos. Es un placer estar aquí compartiendo un vistazo a mi trayectoria y
+                pasiones. Mi nombre es Martin Reyes, y me complace presentarles un recorrido por mi formación y
+                experiencias que han marcado mi camino.
+              </p>
+              <p class="texto">
+                Mi viaje académico y profesional refleja la unión armoniosa entre la admiración por la Tierra y el
+                entusiasmo por la tecnología. Agradezco la oportunidad de compartir mi historia con ustedes y estoy
+                ansioso por explorar nuevas fronteras que combinen lo mejor de ambos mundos en los próximos capítulos de
+                mi carrera. ¡Gracias!
+              </p>
+              <a href="./assets/Documents/CurriculumMartinReyes.pdf" download="CurriculumMartinReyes.pdf">
+                <button class="botoncv">Descarga mi CV</button>
+              </a>
             </div>
-            <p>Hola gracias por visitar mi portafolio
-              <br><br>
-              Realice este portafoliocon la finalidad de mostrar un poco del trabajo que voy realizando de igual manera explicar sobre mi, mi educacion mis gustos y mis pasiones.
-            </p>
           </div>
         </div>
       </div>
@@ -88,58 +101,128 @@
 
 
   <!--otra tarjeta invertida-->
-  <div class="segundaTarjeta">
-  <div class="card mb-3 segundaTarjeta border-0" style="max-width: 100vw;">
-    <div class="row g-0 border-0 segundaTarjeta">
+  <div class="container-fluid m-0" id="ingenieroMartin">
+    <div class="card mb-3  border-0 m-0 segundaTarjeta" id="cardMargen" style="max-width: 100vw; margin: 0;">
+      <div class="row g-0 border-0 segundaTarjeta">
 
-      <div class="col-md-9 border-0 segundaTarjeta">
-        <div class="card-body segundaTarjeta border-0 ">
-          <div class="infoMartin1">
-            <div class="nombre segundaTarjeta border-0">
-              <h1 class="segundaTarjeta">Ing<span class="segundaTarjeta"> Martin</span> Reyes</h1>
+        <div class="col-md-8 border-0 segundaTarjeta">
+          <div class="card-body segundaTarjeta border-0 ">
+            
+              <div class="infoMartin1">
+                <div id="tituloIngeniero" class="nombre segundaTarjeta border-0">
+                  <h1 class="segundaTarjeta" id="tituloIngeniero">Ingeniero<span class="segundaTarjeta"> Martin</span> Reyes</h1>
+                </div>
+                <br>
+              <p class="texto" id="segundaTarjeta">
+                Opté por estudiar Ingeniería Geofísica motivado por un profundo amor y respeto hacia la naturaleza y la
+                Tierra. Desde temprana edad, siempre me fascinó el vasto y diverso mundo que nos rodea. Quería
+                comprender
+                los misterios detrás de los fenómenos naturales y contribuir a la preservación de nuestro entorno.
+
+              </p>
+
+              <p class="texto" id="segundaTarjeta">Mi conexión con la tecnología se remonta a mi infancia, donde mi
+                padre
+                se convirtió en mi guía en este emocionante viaje. A medida que crecí, esta fascinación por la
+                tecnología
+                se tradujo en un interés particular por el desarrollo web. Aprendí a apreciar la habilidad de crear
+                experiencias digitales significativas y funcionales. El desarrollo web se convirtió en una extensión
+                natural de mi amor por la tecnología, permitiéndome combinar la creatividad con la precisión técnica.
+
+              </p>
+              <p class="texto" id="segundaTarjeta"> Hoy en día, encuentro una maravillosa síntesis en mi vida, donde la
+                Ingeniería Geofísica y el Desarrollo Web convergen. Mi formación geofísica alimenta mi deseo de
+                comprender
+                y preservar la naturaleza, mientras que mi habilidad en desarrollo web me permite contribuir a la
+                evolución tecnológica.</p>
+
             </div>
-            <p class="segundaTarjeta">Yo estudie para ingeniero Geofisico realice mis estudios en la escuela superior de ingenieria y
-              arquitectura unidad Ticoman. del Instituto Politecnico Nacional.</p>
-              
-             <p class="segundaTarjeta"> Durante mi niñes y juventud tuve mucha pasion por la electronica, pues mi padre fue uno de mis grandes maestros el realizaba instalaciones de antenas satelitales y reparaba televisiones todo esto cuando las televiciones apenas empezaban en la CDMX.   </p>
-          <p class="segundaTarjeta">  Gracias a eso siempre tuve mucha pasion por la tecnologia poco despues mi educacion se inclino hacia la geofisica ya que me apaciona mucho la naturaleza el mundo es basto y diverso y mis ganas por recorrerlo son muchas asi que estudie geofisica para entender el por que de los fenomenos naturales y por que la tierra es como es hoy en dia eh logrado conseguir mucho de la geofisica.</p>
-
-          <p class="segundaTarjeta">Aqui me encuentro realizando un estudio geofisico en polanco este metodo funciona por ondas electromagenticas las  cuales regresan y con ayuda de un geofisico se genra una imagen del subsuelo.</p>
           </div>
         </div>
-      </div>
-      <div class="col-md-3  border-0">
-        <img src="./assets/imagenes/MartinGeofisica.jpg" class="img-thumbnail border-0" id="imgmartinIng" alt="...">
+        <div class="col-md-4  border-0">
+          <img src="./assets/imagenes/MartinGeofisica.jpg" class="img-thumbnail border-0" id="imgmartinIng" alt="...">
+        </div>
       </div>
     </div>
   </div>
 
-</div>
 
 
-
-  
-  <div class="card mb-3   border-0" style="max-width: 100vw;">
-    <div class="row g-0 border-0">
-      <div class="col-md-3  border-0">
-        <!-- <img src="../assets/imagenes/MartinGeofisica.jpg" class="img-fluid rounded-start" alt="..."> -->
-        <img src="./assets/imagenes/programador.jpg" class="img-thumbnail border-0" id="imgmartinipn" alt="...">
-      </div>
-      <div class="col-md-9 border-0">
-        <div class="card-body  border-0 ">
-          <div class="infoMartin">
-            <div class="nombre border-0">
-              <h1>Java<span> Full Stack</span> Developer</h1>
-            </div>
-            <p>
+  <!--proyectos personales-->
+  <div class="container-fluid m-0" id="proyectosPersonales">
+    <div class="col-md-12 border-0">
+      <div class="card-body  border-0 ">
+        <div class="infoMartin">
+          <div class="nombre border-0">
+            <h1>Java<span> Full Stack</span> Developer </h1>
+          </div>
+          <p class="texto">
             <br><br>
-              actualmente estoy en constante aprendizaje para convertirme en un desarrollador Java Full Stack de
-              gran valor, con ayuda de la institucion Generation Mexico estoy desarrollando todas mis habilidades.
-              <br><br>Muchas gracias por haber leido mi presentacion te invito a seguir viendo las demas categorias tambien puedes descargar mi curriculum con el siguiente enlace. 
-            </p>
-            <a download="" href="#">
-              <button class="botoncv">Descarga mi CV</button>
-            </a>
+            En la actualidad, me encuentro inmerso en una continua fase de formación con el objetivo de alcanzar la
+            excelencia como desarrollador Java Full Stack. Te extiendo una cordial invitación para explorar mis
+            proyectos
+            más recientes, donde podrás obtener una visión detallada de mi desarrollo tanto personal como profesional en
+            este ámbito.
+            <hr>
+          </p>
+          <h1>
+            <span>PROYECTOS PERSONALES</span>
+          </h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/imagenes/calculadora.png" class="card-img-top" alt="...">
+                <div class="card-body" id="bodyCard">
+                  <h5 class="card-title">Calculadora con JavaScript</h5>
+                  <p class="card-text">Es una calculadora programada con logica en JavaScript puede realizar funciones
+                    simples de una calculadora cotidiana, pero me ayudo bastante en aprender la logica de programacion.
+                    <hr>
+                    <a download="" href="https://martinete2710.github.io/Calculadora/">
+                      <button class="botoncv">Verifica su funcion
+                      </button>
+                    </a>
+                  </p>
+                </div>
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/imagenes/github.png" id="imagenGit" class="card-img-top" alt="...">
+                <div class="card-body" id="bodyCard">
+                  <h5 class="card-title">Repositorio de GitHub</h5>
+                  <p class="card-text">
+                    <hr>En el podran encontrar proyectos tanto de JavaScript asi como proyectos mas
+                    recientes en el ambito del backend con java y springboot.
+                    <hr>
+                    <a download="" href="https://github.com/Martinete2710">
+                      <button class="botoncv">Visita el Repositorio</button>
+                    </a>
+                  </p>
+
+                </div>
+
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="./assets/imagenes/Springboot.png" id="imagenGit" class="card-img-top" alt="...">
+                <div class="card-body" id="bodyCard">
+                  <h5 class="card-title">Springboot Java</h5>
+                  <p class="card-text"> BACK!! Se realizo los servicios rest para la creacion de usuarios, asi como la
+                    creacion de su base de datos y la forma de guardar las contraseñas con un token diferente para
+                    implementar seguridad asi como un JWT para crear una sesion con un token.
+                    <hr>
+                    la base de datos fue creada con MySQL.
+                    <hr>
+                    <a download="" href="https://github.com/Martinete2710/Back_Springboot">
+                      <button class="botoncv">Visita el proyecto</button>
+                    </a>
+                  </p>
+                </div>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -148,7 +231,7 @@
 
 
 
-</div>
+
 
 
 
