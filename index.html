@@ -394,10 +394,12 @@
                     <input type="text" name="correo" placeholder="Dirección de correo">
                     <input type="text" name="tema" placeholder="Tema">
                     <textarea name="texto" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button type="submit">
+                    <button  type="submit" onclick="mostrarAlerta()">
                         Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
+                    <input type="hidden" name="_next" value="https://martinete2710.github.io/PORTAFOLIO-PERSONAL/">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
                 </div>
                 <!-- Mapa -->
@@ -437,6 +439,11 @@
         </div>
     </footer>
 
+    <script>
+        function mostrarAlerta() {
+            alert("Gracias por enviar tus datos lo antes posible te contactare.");
+        }
+    </script>
     <script src="script.js"></script>
 </body>
 
